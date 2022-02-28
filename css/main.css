@@ -382,15 +382,17 @@ margin-bottom: -20px;
 margin-top:-10px;
 }
 .card{
-width: 400px;
+width: 340px;
 margin-left: 50px;
 border: 2px solid #3425b8;
-padding: ;
+padding:12px ;
 }
+/* section style start */
 
 .amaliyot{
 margin-top: 70px;
 
-
-
 }
+
+
+/* section style end */
