@@ -230,63 +230,9 @@ padding: 13px  62.94px;
 }
 .text-nav{
 display:flex;
-flex-direction: ;
+flex-direction:row ;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
 .page-three  p{
   margin-left:22px ;
   margin-top: -20px;
@@ -299,6 +245,57 @@ text-align: center;
   text-align: center;
 
 }
+.bigcard{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+box-sizing: border-box;
+}
+
+
+.card-sale-three {
+  height: 700px;
+padding: 20px 50px;
+border-radius: 10px;
+border: 2px solid #DDDDDD;
+margin: auto;
+}
+.card-sale-one{
+  height: 700px;
+padding: 20px 50px;
+border-radius: 10px;
+border: 2px solid #DDDDDD;
+margin: auto;
+}
+.card-sale-two{
+  height: 700px;
+padding: 20px 50px;
+border-radius: 10px;
+border: 2px solid #DDDDDD;
+
+
+
+}
+
+.card-sale a{
+  text-decoration: none;
+margin: 60px;
+border:2px solid  #F53838;
+border-radius: 50px;
+padding: 13px 62.94px;
+
+}
+
+.link-card-a{
+color:#DDDDDD;
+background-color: #F53838;
+
+
+}
+.card-sale  h4,h3, img{
+text-align: center;
+
+}
 
 
 
@@ -307,6 +304,15 @@ text-align: center;
 
 
 
+
+
+
+.card-inner{
+  margin: 0 auto;
+
+
+
+  }
 
 
 
@@ -351,9 +357,8 @@ text-align: center;
 display: flex;
 flex-direction: row;
 justify-content:space-between ;
-
-
 }
+
 
 .persons{
 display: flex;
@@ -368,15 +373,24 @@ margin-left:45px;
 
 }
 
+.card-sale{
+text-align: center;
+
+
+}
 .text-p{
 padding-left:10px ;
 
+}
+.text-p h4{
+  color: #0B132A;
 }
 .card-img{
 align-items:center;
 margin-bottom: -20px;
 
 }
+
 
 .text-p p{
 margin-top:-10px;
@@ -396,3 +410,72 @@ margin-top: 70px;
 
 
 /* section style end */
+.nav-btn{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items:center;
+}
+.nav-btn a {
+text-decoration: none;
+background-color: #F53838;
+padding: 17.5px  65px ;
+text-align: center;
+border-radius: 10px;
+color: #fff;
+
+}
+.footer-section{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+.footer-logo a{
+text-decoration: none;
+
+}
+.footer-link p{
+color:#0B132A;
+font-size: 18px;
+font-family:'rb-m';
+
+  }
+
+
+.footer-link{
+  display: flex;
+  flex-direction: column;
+}
+.social-media-ul{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.social-media-ul li{
+list-style: none;
+}
+.footer-link a{
+text-decoration: none;
+margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+/* start  footer  */
+.footer{
+margin-bottom: 300px;
+
+
+}
+
+
+
+
+/* end footer  */
